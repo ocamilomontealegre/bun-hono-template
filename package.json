@@ -1,0 +1,18 @@
+{
+  "name": "03_node_hono_template",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start:dev": "bun src/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.6.9"
+  }
+}
+
